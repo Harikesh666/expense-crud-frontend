@@ -1,13 +1,35 @@
-# React + Vite
+# 💰 Expense CRUD Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web app for managing personal expenses with **Create**, **Read**, **Update**, and **Delete** functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+- **Frontend**: [Expense CRUD Frontend](https://expense-crud-frontend.vercel.app)  
+- **Backend API**: [Expense CRUD Backend](https://expense-crud-backend.onrender.com)  
+- **Frontend Repo**: [GitHub](https://github.com/Harikesh666/expense-crud-frontend)  
+- **Backend Repo**: [GitHub](https://github.com/Harikesh666/expense-crud-backend)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# expense-crud-frontend
+## ✨ Features
+- User **Register** and **Login** using **name** and **password**.
+- **Protected routes** — each user can only access their own expenses.
+- Add, view, edit, and delete expenses.
+- **Responsive design**:
+  - On **desktop**, expenses are displayed in a table.
+  - On **mobile**, expenses are displayed in card format for better readability.
+- **TanStack Query** used for efficient server-state management and data fetching.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend**: React.js, Tailwind CSS, Axios, TanStack Query  
+- **Backend**: Node.js, Express.js, PostgreSQL (`pg` library)  
+- **Database**: Hosted on Render  
+- **Deployment**: Frontend on Vercel, Backend on Render
+
+---
+
+## 📜 License
+MIT License — Free to use and modify.
