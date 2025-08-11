@@ -21,6 +21,7 @@ A responsive web app for managing personal expenses with **Create**, **Read**, *
   - On **mobile**, expenses are displayed in card format for better readability.
 - **TanStack Query** used for efficient server-state management and data fetching.
 
+⏳ **Note:  Since the backend is hosted on a free tier (Render), it may take up to 1 minute to boot after a period of inactivity.**
 ---
 
 ## 🛠 Tech Stack
