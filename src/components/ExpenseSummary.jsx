@@ -16,7 +16,7 @@ const COLORS = [
 ];
 
 const ExpenseSummary = ({ expenses }) => {
-    console.log("================", expenses);
+    // console.log("================", expenses);
     // Total expenses
     const totalExpense = expenses.reduce(
         (acc, curr) => acc + Number(curr.amount),
